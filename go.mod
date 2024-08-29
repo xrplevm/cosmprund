@@ -1,4 +1,4 @@
-module github.com/binaryholdings/cosmos-pruner
+module github.com/xrplevm/cosmprund
 
 go 1.22.2
 

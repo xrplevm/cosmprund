@@ -8,7 +8,6 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/authz"
 	"path/filepath"
 
-	"github.com/binaryholdings/cosmos-pruner/internal/rootmulti"
 	db "github.com/cometbft/cometbft-db"
 	"github.com/cometbft/cometbft/state"
 	tmstore "github.com/cometbft/cometbft/store"
@@ -28,6 +27,7 @@ import (
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 	ibctransfertypes "github.com/cosmos/ibc-go/v7/modules/apps/transfer/types"
 	ibcexported "github.com/cosmos/ibc-go/v7/modules/core/exported"
+	"github.com/xrplevm/cosmprund/internal/rootmulti"
 
 	"github.com/neilotoole/errgroup"
 	"github.com/spf13/cobra"

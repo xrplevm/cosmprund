@@ -2,7 +2,7 @@ package rootmulti
 
 import (
 	"fmt"
-	"github.com/binaryholdings/cosmos-pruner/internal/pruning"
+	"github.com/xrplevm/cosmprund/internal/pruning"
 	"io"
 	"math"
 	"sort"

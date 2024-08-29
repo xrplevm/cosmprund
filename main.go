@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/binaryholdings/cosmos-pruner/cmd"
+	"github.com/xrplevm/cosmprund/cmd"
 )
 
 func main() {
